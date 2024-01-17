@@ -5,7 +5,7 @@
 
 The Neurobridge Ontology (NO) has terms that are used to identify the research design and data types of scientific papers. It is used in systems that search and return papers based on queries made by scientists. Some of the terms used in the NO are not defined.
 
-**Goal**of this project is to:
+**Goal** of this project is to:
 
 (i) identify NO terms used in the labeling of a corpus of papers
 \
