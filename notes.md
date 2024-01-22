@@ -46,6 +46,18 @@ The end product of this will be an enhanced version of the NeuroBridge ontology 
       2. Protégé wiki: [https://protegewiki.stanford.edu/wiki/Main_Page](https://protegewiki.stanford.edu/wiki/Main_Page)
 
 
+## Update - Jan 22, 2024
+
+
+
+1. List of Ontologies, search overlapping terms and add them to “rdfs:seeAlso” column
+    1. [https://www.nlm.nih.gov/mesh/meshhome.html](https://www.nlm.nih.gov/mesh/meshhome.html)
+    2. [https://www.nlm.nih.gov/research/umls/index.html](https://www.nlm.nih.gov/mesh/meshhome.html)
+    3. [https://mondo.monarchinitiative.org/](https://mondo.monarchinitiative.org/)
+    4. [https://www.ebi.ac.uk/ols4/ontologies/uberon](https://www.ebi.ac.uk/ols4/ontologies/uberon)
+2. The PROV Ontology, a model used by NeuroBridge: https://www.w3.org/TR/prov-o/
+
+
 
 
 ## Update - Jan 16, 2024
@@ -57,4 +69,3 @@ The end product of this will be an enhanced version of the NeuroBridge ontology 
       2. The People Ontology: 
       3. PizzaTutorialData: [https://drive.google.com/file/d/1oFRBfBNSTQqXAXg_8PYYoB0S44kIW4Y6/view](https://drive.google.com/file/d/1oFRBfBNSTQqXAXg_8PYYoB0S44kIW4Y6/view)
 3. Created github repositories for version control: https://github.com/tuotothesis/neurobridge-expand.git
-4. 
