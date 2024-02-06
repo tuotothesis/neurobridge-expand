@@ -2264,6 +2264,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://maven.renci.org/NeuroBridge/neurobridge#DisorganizedSchizophrenia">
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#Schizophrenia"/>
         <rdfs:label>DisorganizedSchizophrenia</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/35252006</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4143,6 +4144,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://maven.renci.org/NeuroBridge/neurobridge#SchizophrenicDisorders">
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#Schizophrenia"/>
         <rdfs:label>SchizophrenicDisorders</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/191526005</rdfs:seeAlso>
     </owl:Class>
     
 
