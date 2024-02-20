@@ -901,8 +901,8 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <prov:component>entities-activities</prov:component>
         <prov:definition xml:lang="en">Provides a value that is a direct representation of an entity.</prov:definition>
         <prov:dm rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-attribute-value</prov:dm>
-        <prov:editorialNote xml:lang="en">This property serves the same purpose as rdf:value, but has been reintroduced to avoid some of the definitional ambiguity in the RDF specification (specifically, &apos;may be used in describing structured values&apos;).</prov:editorialNote>
         <prov:editorialNote>The editor&apos;s definition comes from http://www.w3.org/TR/rdf-primer/#rdfvalue</prov:editorialNote>
+        <prov:editorialNote xml:lang="en">This property serves the same purpose as rdf:value, but has been reintroduced to avoid some of the definitional ambiguity in the RDF specification (specifically, &apos;may be used in describing structured values&apos;).</prov:editorialNote>
     </owl:DatatypeProperty>
     
 
@@ -1027,6 +1027,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#SubstanceUseScale"/>
         <rdfs:label>ASI-X</rdfs:label>
         <rdfs:label>AddictionSeverityIndex</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/273260002</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1075,6 +1076,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://maven.renci.org/NeuroBridge/neurobridge#AlcoholDependenceScale">
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#SubstanceDependenceScale"/>
         <rdfs:label>Alcohol Dependence Scale</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/273264006</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1191,6 +1193,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://maven.renci.org/NeuroBridge/neurobridge#AltmanSelf-RatingManiaScale">
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#PsychopathologyScale"/>
         <rdfs:label>Altman Self-Rating Mania Scale</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/838442002</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1414,6 +1417,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://maven.renci.org/NeuroBridge/neurobridge#BeckDepressionInventory">
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#DepressionRatingScale"/>
         <rdfs:label>Beck Depression Inventory</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/273306008</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1533,6 +1537,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://maven.renci.org/NeuroBridge/neurobridge#BreathalyzerTest">
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#AlcoholUseScale"/>
         <rdfs:label>Breathalyzer Test</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/763256006</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1541,8 +1546,8 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
 
     <owl:Class rdf:about="http://maven.renci.org/NeuroBridge/neurobridge#BriefAssessmentofCognitioninSchizophrenia">
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#PsychopathologyScale"/>
-        <rdfs:label>Brief Assessment of Cognition</rdfs:label>
         <rdfs:label>BACS</rdfs:label>
+        <rdfs:label>Brief Assessment of Cognition</rdfs:label>
         <rdfs:label>Brief Assessment of Cognition in Schizophrenia</rdfs:label>
     </owl:Class>
     
@@ -1600,6 +1605,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#PsychopathologyScale"/>
         <rdfs:label>BFCRS</rdfs:label>
         <rdfs:label>Bush-FrancisCatatoniaRatingScale</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/1231443002</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1628,6 +1634,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#DepressionRatingScale"/>
         <rdfs:label>CDSS</rdfs:label>
         <rdfs:label>Calgary Depression Scale for Schizophrenia</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/1231439001</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1638,6 +1645,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#NeurocognitiveTest"/>
         <rdfs:label>CVLT-II</rdfs:label>
         <rdfs:label>CaliforniaVerbalLearningTest-II</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/719149000</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1771,6 +1779,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#LifeHistoryScale"/>
         <rdfs:label>CTQ</rdfs:label>
         <rdfs:label>ChildhoodTraumaQuestionnaire</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/621121000124108</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1942,8 +1951,8 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
 
     <owl:Class rdf:about="http://maven.renci.org/NeuroBridge/neurobridge#ComprehensiveAssessmentofSymptomsandHistory">
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#PsychopathologyScale"/>
-        <rdfs:label>Comprehensive Assessment of Symptoms and History</rdfs:label>
         <rdfs:label>CASH</rdfs:label>
+        <rdfs:label>Comprehensive Assessment of Symptoms and History</rdfs:label>
         <rdfs:label>ComprehensiveAssessmentofSymptomsandHistory</rdfs:label>
     </owl:Class>
     
@@ -2672,6 +2681,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#MentalHealthDiagnosisScale"/>
         <rdfs:label>FAB</rdfs:label>
         <rdfs:label>FrontalAssessmentBattery</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/443124006</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2786,6 +2796,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#AnxietyRatingScale"/>
         <rdfs:label>HamiltonAnxietyRatingScale</rdfs:label>
         <rdfs:seeAlso>HAMA</rdfs:seeAlso>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/1231454007</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3621,6 +3632,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:comment>NIDA Common Data Element</rdfs:comment>
         <rdfs:label>PHQ-9</rdfs:label>
         <rdfs:seeAlso>https://cde.drugabuse.gov/instrument/f226b1a0-897c-de2a-e040-bb89ad4338b9</rdfs:seeAlso>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/720433000</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3762,6 +3774,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#PositiveNegativeSymptomRatingScale"/>
         <rdfs:label>PANSS</rdfs:label>
         <rdfs:label>PositiveandNegativeSyndromeScale</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/273703003</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4639,6 +4652,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:comment>NIDA Common Data Element</rdfs:comment>
         <rdfs:label>TLFB</rdfs:label>
         <rdfs:seeAlso>https://cde.drugabuse.gov/instrument/d89c8e23-16e5-625a-e040-bb89ad43465d</rdfs:seeAlso>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/273879005</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4717,6 +4731,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#NeurocognitiveTest"/>
         <rdfs:label>WMS-R</rdfs:label>
         <rdfs:label>WechslerMemoryScale-Revised</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/311481008</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4788,6 +4803,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#DepressionRatingScale"/>
         <rdfs:label>CDI</rdfs:label>
         <rdfs:label>Children&apos;s Depression Inventory</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/444296002</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4798,6 +4814,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#DepressionRatingScale"/>
         <rdfs:label>MADRS</rdfs:label>
         <rdfs:label>Montgomery–AsbergDepressionRatingScale</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/763265004</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4870,6 +4887,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#Actigraph">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataCollectionInstrument"/>
         <rdfs:label>Actigraph</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/1149296007</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4986,6 +5004,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#Audiometer">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataCollectionInstrument"/>
         <rdfs:label>Audiometer</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/705316002</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5694,6 +5713,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#Electrocardiograph">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataCollectionInstrument"/>
         <rdfs:label>Electrocardiograph</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/705983006</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5757,6 +5777,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#Electromyograph">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataCollectionInstrument"/>
         <rdfs:label>Electromyograph</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/468237009</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6962,8 +6983,8 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#Questionnaire">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataCollectionInstrument"/>
         <rdfs:label>Patient Reported Outcome</rdfs:label>
-        <rdfs:label>Self Report Questionnaire</rdfs:label>
         <rdfs:label>Questionnaire</rdfs:label>
+        <rdfs:label>Self Report Questionnaire</rdfs:label>
     </owl:Class>
     
 
@@ -7266,6 +7287,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DispersionMeasure"/>
         <provcare:synonym>Standard deviation</provcare:synonym>
         <rdfs:label>StandardDeviationMeasure</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/386136009</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -7893,6 +7915,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#SoftwareAgent">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataAnalysisInstrument"/>
         <rdfs:label>SoftwareAgent</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/260528009</rdfs:seeAlso>
         <prov:category>expanded</prov:category>
         <prov:component>agents-responsibility</prov:component>
         <prov:definition xml:lang="en">A software agent is running software.</prov:definition>
