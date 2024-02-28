@@ -3631,8 +3631,8 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#DepressionRatingScale"/>
         <rdfs:comment>NIDA Common Data Element</rdfs:comment>
         <rdfs:label>PHQ-9</rdfs:label>
-        <rdfs:seeAlso>https://cde.drugabuse.gov/instrument/f226b1a0-897c-de2a-e040-bb89ad4338b9</rdfs:seeAlso>
         <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/720433000</rdfs:seeAlso>
+        <rdfs:seeAlso>https://cde.drugabuse.gov/instrument/f226b1a0-897c-de2a-e040-bb89ad4338b9</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4651,8 +4651,8 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://maven.renci.org/NeuroBridge/neurobridge#SubstanceUseScale"/>
         <rdfs:comment>NIDA Common Data Element</rdfs:comment>
         <rdfs:label>TLFB</rdfs:label>
-        <rdfs:seeAlso>https://cde.drugabuse.gov/instrument/d89c8e23-16e5-625a-e040-bb89ad43465d</rdfs:seeAlso>
         <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/273879005</rdfs:seeAlso>
+        <rdfs:seeAlso>https://cde.drugabuse.gov/instrument/d89c8e23-16e5-625a-e040-bb89ad43465d</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6225,6 +6225,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#Impedance">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#RespiratoryPlethysmography"/>
         <rdfs:label>Impedance</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/252456007</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6491,6 +6492,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <provcare:synonym>Mean is the central tendency of a probability distribution or random variable that may have an associated value distribution (derived from Wikipedia)</provcare:synonym>
         <rdfs:label>Mean</rdfs:label>
         <rdfs:label>Statistical Mean</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/255586005</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6510,6 +6512,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#CentralTendencyMeasure"/>
         <rdfs:comment>The data value that separates higher valued data from lower valued data</rdfs:comment>
         <rdfs:label>Median</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/260528009</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6551,6 +6554,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#MercurySphygmomanometer">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#Sphygmomanometer"/>
         <rdfs:label>MercurySphygmomanometer</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/309642005</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -7119,6 +7123,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#RespiratoryPlethysmography">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataCollectionInstrument"/>
         <rdfs:label>RespiratoryPlethysmography</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/46857000</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -7249,6 +7254,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#Sphygmomanometer">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataCollectionInstrument"/>
         <rdfs:label>Sphygmomanometer</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/39690000</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -7268,6 +7274,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#Spirometer">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataCollectionInstrument"/>
         <rdfs:label>Spirometer</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/303501006</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -7277,6 +7284,7 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
     <owl:Class rdf:about="http://www.case.edu/ProvCaRe/provcare#Stadiometer">
         <rdfs:subClassOf rdf:resource="http://www.case.edu/ProvCaRe/provcare#DataCollectionInstrument"/>
         <rdfs:label>Stadiometer</rdfs:label>
+        <rdfs:seeAlso>http://purl.bioontology.org/ontology/SNOMEDCT/24311000205101</rdfs:seeAlso>
     </owl:Class>
     
 
