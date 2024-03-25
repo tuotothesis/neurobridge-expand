@@ -7314,6 +7314,11 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <Literal>GoNoGoTask</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Hallucination</IRI>
+        <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/7011001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Hallucination</IRI>
         <Literal>Hallucination</Literal>
@@ -7557,6 +7562,11 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>MajorDepressiveDisorder</IRI>
         <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/370143000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>ManicEpisode</IRI>
+        <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/191590005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10114,6 +10124,11 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <Literal>DateTimeUnit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>provcare:DeathCertificate</AbbreviatedIRI>
+        <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/307930005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>provcare:DeathCertificate</AbbreviatedIRI>
         <Literal>DeathCertificate</Literal>
@@ -11147,6 +11162,11 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <AbbreviatedIRI>provcare:Median</AbbreviatedIRI>
         <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/260528009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>provcare:MedicalRecord</AbbreviatedIRI>
+        <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/129465004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
