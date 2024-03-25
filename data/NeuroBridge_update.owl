@@ -8344,6 +8344,11 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <Literal>PersonalandSocialPerformanceScale</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>PersonalityDisorder</IRI>
+        <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/33449004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>PersonalityRatingScale</IRI>
         <Literal>Personal Assessment Scale</Literal>
@@ -8802,6 +8807,11 @@ http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>SchizotypalPersonalityQuestionnaire</IRI>
         <Literal>Schizotypal Personality Questionnaire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Schizotypy</IRI>
+        <Literal>http://purl.bioontology.org/ontology/SNOMEDCT/31027006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
